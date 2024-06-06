@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio-Website</title>
+    <link rel="shortcut icon" href="images/m-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bee1bad53b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/m-logo1.avif" alt="image" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi, I'm <span>Mariyam</span><br>Hameed From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2023-10-13 at 8.25.53 PM (1).jpeg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I am a passionate full-stack web developer with a strong commitment to crafting
+                        exceptional digital experiences. With a diverse skill set encompassing both front-end and
+                        back-end development, I take pride in my ability to transform creative concepts into functional,
+                        user-friendly websites and applications. My journey in web development has equipped me with
+                        proficiency in a range of programming languages, frameworks, and technologies, allowing me to
+                        deliver dynamic, responsive, and visually appealing solutions.Explore my portfolio to see the
+                        results of my dedication to web development and my unwavering commitment to delivering quality
+                        work.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web interfaces</li>
+                            <li><span>Web Development</span><br>Full stack web development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 current</span><br>Internship at B.tech</li>
+                            <li><span>2023 current</span><br>Course at B.tech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BSCS from Kfueit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I design web experiences that captivate and engage users from the very first click. By harmonizing aesthetics and functionality, I create websites that not only look stunning but also perform seamlessly.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I design web and mobile interfaces with a profound focus on enhancing user experiences. My UI/UX design approach is rooted in empathy, understanding that every click and interaction should feel intuitive and delightful for the end user.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My work
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/General-Maintenance.jpg" alt="">
+                        <div class="layer">
+                            <h6>Civil Engineer</h6>
+                            <p>A handyman website is a digital platform designed to showcase the services and expertise of a handyman.</p>
+                            <a href="https://mariyamhanmeed.github.io/civilengineer/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/project-3.jpg" alt="">
+                        <div class="layer">
+                            <h6>Bexar</h6>
+                            <p>A "Bexar website" is a somewhat ambiguous term as "Bexar" is often associated with Bexar County, Texas, where San Antonio is located. </p>
+                            <a href="https://mariyamhanmeed.github.io/infobexar/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/7103b8d3-eadc-40c3-bc6c-283fece6746b.png" alt="">
+                        <div class="layer">
+                            <h6>SignupForm</h6>
+                            <p>Requires username or password to signup on any websites.</p>
+                            <a href="https://mariyamhanmeed.github.io/signupform/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>meriumhameed@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>03045241979</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
